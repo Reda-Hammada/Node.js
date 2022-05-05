@@ -1,7 +1,6 @@
-
-let result = 0
-
+'use strict';
+var result = 2;
 for( let i = 2; i < process.argv.length; i++){
- result = result + Number(proccess.argv[i]);
+ result = result + Number(process.argv[i]);
 }
 console.log(result);
